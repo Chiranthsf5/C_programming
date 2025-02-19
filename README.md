@@ -1,2 +1,2 @@
-# C_programming <br>First year programmes , Author:chiranth AR
+# C_programming <br>First year programmes , Author : Chiranth AR
 
