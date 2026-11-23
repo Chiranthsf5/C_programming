@@ -1,0 +1,7 @@
+programming languages are divided into ---> low level , high level [more user  friendly]
+1.low level -->  Machine  language --> which can directly run on cpu  [ 0  or 1  ] -->not portable
+                 Assembly language ---> 0 , 1 is replaced by instructions --> specific to achitecture and sometime os eg.. 8051 / intel
+2.high level --> procedural , object oriented [ portable    
+                
+
+procedural programming  ---> converting program into much smaller programs called procedures / functions
