@@ -1,7 +1,43 @@
 programming languages are divided into ---> low level , high level [more user  friendly]
 1.low level -->  Machine  language --> which can directly run on cpu  [ 0  or 1  ] -->not portable
                  Assembly language ---> 0 , 1 is replaced by instructions --> specific to achitecture and sometime os eg.. 8051 / intel
-2.high level --> procedural , object oriented [ portable    
+2.high level --> procedural , object oriented [ portable ]
                 
 
 procedural programming  ---> converting program into much smaller programs called procedures / functions
+
+
+
+
+
+
+
+
+ ---> scope of variables :- local var , global var
+      Note: redefnition of global  variable inside a function is allowed
+----> variable modifiers -> auto , extern
+      auto : an automatic variable is variable which automatically get derstoyed after the completion of the function or it's scope
+ means memory allocated to it will be de-allocated to other var.
+by default all vars inside a function are automatic vars no need to specify the auto keyword
+eg 1.
+
+#include<stdio.h>                               
+int main(){
+auto int var;
+printf("%d",var);
+return 0;
+}
+
+op : any value ( garbage )
+____________________________________________
+
+eg 2.
+
+#include<stdio.h>
+auto int var;    //global
+int main(){
+printf("%d",var);
+return 0;
+}
+
+op :0 ---> the global vars are automatically initialised to 0
